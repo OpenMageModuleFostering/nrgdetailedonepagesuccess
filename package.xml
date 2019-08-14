@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>nrgdetailedonepagesuccess</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v1.1</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A better Success page</summary>
+    <description>This module displays the products just purchased along with the billing address, shipping address, payment method and shipping method on the success page.</description>
+    <notes>none</notes>
+    <authors><author><name>Nikita Nautiyal</name><user>nautiyal_nikita</user><email>nautiyal.nikita@gmail.com</email></author></authors>
+    <date>2013-12-17</date>
+    <time>04:19:58</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Details_Checkout.xml" hash="cd83339784b7203040c660b70f82483d"/></dir></target><target name="magelocal"><dir name="Details"><dir name="Checkout"><dir name="Block"><dir name="Onepage"><file name="Success.php" hash="9d8e15eda0229272400f9a3d694a7f27"/></dir></dir><dir name="etc"><file name="config.xml" hash="3ef580a83134268280b3d5042f58b6c7"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="details_checkout.xml" hash="eb102a4b734e83cd1ca3d0002b834f6c"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Checkout Success-module for Magento 
+ *
+ * @category    Checkout
+ * @package     Details_Checkout
+ * @author      Nikita Nautiyal
+ */ @for any queries email at: nautiyal.nikita@gmail.com
+-->
+<config>
+    <modules>
+        <Details_Checkout>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Details_Checkout>
+    </modules>
+</config>
